@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zaj01", "Zaj01\Zaj01.csproj", "{C99F180F-F292-4A73-8473-26D9CE024D4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zaj02", "Zaj02\Zaj02.csproj", "{5105BC94-B8A1-46EC-9E7B-B9A75BE5C10F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zaj03", "Zaj03\Zaj03.csproj", "{A2118F3C-8CA3-4F0C-9D91-EACB4FFADDF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zaj04", "Zaj04\Zaj04.csproj", "{B712A926-E473-419B-A012-800014C0BA68}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Events", "Events", "{D8BAD769-F97E-4A45-B146-0C7995FED7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.Dal", "Events.Dal\Events.Dal.csproj", "{F7C10A86-51F6-46FC-AE2B-34FFF3A77A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.Console", "Events.Console\Events.Console.csproj", "{5CF88EA9-F716-4DB5-9129-8E60F80E498A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.WinForms", "Events.WinForms\Events.WinForms.csproj", "{5F882F59-DAA7-4572-BD1E-18933108339B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C99F180F-F292-4A73-8473-26D9CE024D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99F180F-F292-4A73-8473-26D9CE024D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99F180F-F292-4A73-8473-26D9CE024D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99F180F-F292-4A73-8473-26D9CE024D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5105BC94-B8A1-46EC-9E7B-B9A75BE5C10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5105BC94-B8A1-46EC-9E7B-B9A75BE5C10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5105BC94-B8A1-46EC-9E7B-B9A75BE5C10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5105BC94-B8A1-46EC-9E7B-B9A75BE5C10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2118F3C-8CA3-4F0C-9D91-EACB4FFADDF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2118F3C-8CA3-4F0C-9D91-EACB4FFADDF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2118F3C-8CA3-4F0C-9D91-EACB4FFADDF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2118F3C-8CA3-4F0C-9D91-EACB4FFADDF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B712A926-E473-419B-A012-800014C0BA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B712A926-E473-419B-A012-800014C0BA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B712A926-E473-419B-A012-800014C0BA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B712A926-E473-419B-A012-800014C0BA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C10A86-51F6-46FC-AE2B-34FFF3A77A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C10A86-51F6-46FC-AE2B-34FFF3A77A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C10A86-51F6-46FC-AE2B-34FFF3A77A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C10A86-51F6-46FC-AE2B-34FFF3A77A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF88EA9-F716-4DB5-9129-8E60F80E498A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF88EA9-F716-4DB5-9129-8E60F80E498A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF88EA9-F716-4DB5-9129-8E60F80E498A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF88EA9-F716-4DB5-9129-8E60F80E498A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F882F59-DAA7-4572-BD1E-18933108339B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F882F59-DAA7-4572-BD1E-18933108339B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F882F59-DAA7-4572-BD1E-18933108339B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F882F59-DAA7-4572-BD1E-18933108339B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7C10A86-51F6-46FC-AE2B-34FFF3A77A6C} = {D8BAD769-F97E-4A45-B146-0C7995FED7B1}
+		{5CF88EA9-F716-4DB5-9129-8E60F80E498A} = {D8BAD769-F97E-4A45-B146-0C7995FED7B1}
+		{5F882F59-DAA7-4572-BD1E-18933108339B} = {D8BAD769-F97E-4A45-B146-0C7995FED7B1}
+	EndGlobalSection
+EndGlobal
