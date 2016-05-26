@@ -60,7 +60,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\AddEditViewModel.cs" />
     <Compile Include="ViewModels\EventRowViewModel.cs" />
-    <Compile Include="ViewModels\MianWindowViewModel.cs" />
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <EmbeddedResource Include="FrmAddEdit.resx">
       <DependentUpon>FrmAddEdit.cs</DependentUpon>
     </EmbeddedResource>
