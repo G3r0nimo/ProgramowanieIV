@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.dgvEvents = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnNew = new System.Windows.Forms.Button();
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEvents)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,12 +43,18 @@
             this.Column1});
             this.dgvEvents.Location = new System.Drawing.Point(12, 12);
             this.dgvEvents.Name = "dgvEvents";
-            this.dgvEvents.Size = new System.Drawing.Size(466, 368);
+            this.dgvEvents.Size = new System.Drawing.Size(577, 379);
             this.dgvEvents.TabIndex = 0;
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "Location";
+            this.Column1.HeaderText = "Lokalizacja";
+            this.Column1.Name = "Column1";
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(403, 409);
+            this.btnNew.Location = new System.Drawing.Point(503, 423);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(75, 23);
             this.btnNew.TabIndex = 1;
@@ -58,7 +64,7 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(322, 409);
+            this.btnEdit.Location = new System.Drawing.Point(422, 423);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(75, 23);
             this.btnEdit.TabIndex = 2;
@@ -67,24 +73,18 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(241, 409);
+            this.btnDelete.Location = new System.Drawing.Point(341, 423);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 3;
             this.btnDelete.Text = "Usun";
             this.btnDelete.UseVisualStyleBackColor = true;
             // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "Location";
-            this.Column1.HeaderText = "Lokalizacja";
-            this.Column1.Name = "Column1";
-            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(490, 455);
+            this.ClientSize = new System.Drawing.Size(601, 476);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnNew);

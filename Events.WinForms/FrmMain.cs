@@ -13,14 +13,14 @@ namespace Events.WinForms
 {
     public partial class FrmMain : Form
     {
-        private MianWindowViewModel _mainWindowViewModel;
+        private MainWindowViewModel _mainWindowViewModel;
         public FrmMain()
         {
             InitializeComponent();
 
             //dgvEvents.AutoGenerateColumns = false;
 
-            _mainWindowViewModel = new MianWindowViewModel();
+            _mainWindowViewModel = new MainWindowViewModel();
             dgvEvents.DataSource = _mainWindowViewModel.Events;
         }
 

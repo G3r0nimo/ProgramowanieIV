@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbxEventType = new System.Windows.Forms.ComboBox();
-            this.txtLocation = new System.Windows.Forms.TextBox();
             this.txtTitle = new System.Windows.Forms.TextBox();
+            this.txtLocation = new System.Windows.Forms.TextBox();
+            this.cbxEventType = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,41 +55,12 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dodawanie/edycja";
             // 
-            // label3
+            // txtTitle
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(24, 131);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 13);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Typ wydarzenia";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(24, 90);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Lokalizacja";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 47);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Tytul";
-            // 
-            // cbxEventType
-            // 
-            this.cbxEventType.FormattingEnabled = true;
-            this.cbxEventType.Location = new System.Drawing.Point(117, 123);
-            this.cbxEventType.Name = "cbxEventType";
-            this.cbxEventType.Size = new System.Drawing.Size(121, 21);
-            this.cbxEventType.TabIndex = 2;
-            this.cbxEventType.SelectedIndexChanged += new System.EventHandler(this.cbxEventType_SelectedIndexChanged);
+            this.txtTitle.Location = new System.Drawing.Point(117, 44);
+            this.txtTitle.Name = "txtTitle";
+            this.txtTitle.Size = new System.Drawing.Size(100, 20);
+            this.txtTitle.TabIndex = 0;
             // 
             // txtLocation
             // 
@@ -98,12 +69,13 @@
             this.txtLocation.Size = new System.Drawing.Size(100, 20);
             this.txtLocation.TabIndex = 1;
             // 
-            // txtTitle
+            // cbxEventType
             // 
-            this.txtTitle.Location = new System.Drawing.Point(117, 44);
-            this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(100, 20);
-            this.txtTitle.TabIndex = 0;
+            this.cbxEventType.FormattingEnabled = true;
+            this.cbxEventType.Location = new System.Drawing.Point(117, 123);
+            this.cbxEventType.Name = "cbxEventType";
+            this.cbxEventType.Size = new System.Drawing.Size(121, 21);
+            this.cbxEventType.TabIndex = 2;
             // 
             // button1
             // 
@@ -124,6 +96,33 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Anuluj";
             this.button2.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(24, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(30, 13);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Tytul";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(24, 90);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(60, 13);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Lokalizacja";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(24, 131);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(81, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Typ wydarzenia";
             // 
             // FrmAddEdit
             // 

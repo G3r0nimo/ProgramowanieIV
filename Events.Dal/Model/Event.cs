@@ -10,7 +10,6 @@ namespace Events.Dal.Model
     { 
         eConferenece,
         eMeeting,
-        eDiscuss
         ///
     }
 

@@ -15,8 +15,8 @@ namespace Events.Dal
             _events = new List<Event>
             {
                 new Event{Id=1, Title="ITAD", Location="ATH", When=DateTime.Now, EventType = eEventType.eConferenece},
-                new Event{Id=2, Title="DWO", Location="ATH", When=DateTime.Now, EventType = eEventType.eMeeting},
-                new Event{Id=3, Title="Zajecia", Location="A104", When=DateTime.Now, EventType = eEventType.eDiscuss},
+                new Event{Id=2, Title="DWO", Location="ATH", When=DateTime.Now, EventType = eEventType.eConferenece},
+                new Event{Id=3, Title="Zajecia", Location="A104", When=DateTime.Now, EventType = eEventType.eMeeting},
             };
         }
 

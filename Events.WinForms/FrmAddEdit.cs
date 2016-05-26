@@ -25,10 +25,5 @@ namespace Events.WinForms
                 false, 
                 DataSourceUpdateMode.OnPropertyChanged);
         }
-
-        private void cbxEventType_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

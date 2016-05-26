@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Events.WinForms.ViewModels
 {
-    public class MianWindowViewModel
+    public class MainWindowViewModel
     {
         public Dictionary<eEventType, string> EventTypeLabels 
         {
@@ -40,7 +40,7 @@ namespace Events.WinForms.ViewModels
         }
 
         private IEventRepository _eventsRepository;
-        public MianWindowViewModel()
+        public MainWindowViewModel()
         {
             _eventsRepository = new MemoryEventRepository();
         }
