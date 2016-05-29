@@ -8,15 +8,16 @@
         Title="MainWindow" Height="350" Width="525"
         xmlns:locals="clr-namespace:Zaj05"
         >
-
+        
     <Grid>
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <!--Static resource-->
         <Grid.DataContext>
-            <locals:User Email="test@ath.com" Login="test"/>
-
+            <!--<locals:User Email="test@ath.com" Login="test"/>-->
+            <locals:MainWindowViewModel/>
         </Grid.DataContext>
         <!--<Grid.Resources>
             <locals:User x:Key="u1" Email="test@ath.com" Login="test" />
@@ -33,9 +34,25 @@
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" FontSize="30" Margin="315,145,0,0"   Background="{Binding ElementName=cbxColors, Path=SelectedItem.Content}" 
                    TextWrapping="Wrap" Text="{Binding ElementName=cbxColors, Path=SelectedItem.Content}"  VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="118,243,0,0" TextWrapping="Wrap" 
-                   Text="{Binding Path=Email}" VerticalAlignment="Top"/>
+                   Text="{Binding Path=DefaultUser}" VerticalAlignment="Top"/>
         <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Margin="315,246,0,0" TextWrapping="Wrap" 
-                   Text="{Binding Path=Login}" VerticalAlignment="Top"/>
+                   Text="{Binding Path=DefaultUser}" VerticalAlignment="Top"/>
+
+        <!--<DataGrid>x:Name="dataGrid1" ItemsSource="{Binding AllUsers}" HorizontalAlignment="Left"
+                  Margin="31,185,0,-14" VerticalAlignment="Top" Height="149" Width="440"-->
+        
+            <DataGrid AutoGenerateColumns="False" ItemsSource="{Binding AllUsers}">
+                
+                            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Email}"
+                                    Header="Email"/>
+                <DataGridTextColumn Binding="{Binding Login}"
+                                    Header="Login"/>                
+                                
+
+                </DataGrid.Columns>
+
+            </DataGrid>
 
     </Grid>
 </Window>

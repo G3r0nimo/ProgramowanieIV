@@ -19,7 +19,7 @@ namespace Zaj05
                 new User {Login="Log3",Email="E3@ath.com" },
 
             };
-            DefaultUser = AllUsers.FirstOrDefault();
+            DefaultUser = AllUsers.First();
         }
     }
 }
