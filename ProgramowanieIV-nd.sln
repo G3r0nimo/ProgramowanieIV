@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zaj01", "Zaj01\Zaj01.csproj", "{C99F180F-F292-4A73-8473-26D9CE024D4A}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.Console", "Events.Console\Events.Console.csproj", "{5CF88EA9-F716-4DB5-9129-8E60F80E498A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events.WinForms", "Events.WinForms\Events.WinForms.csproj", "{5F882F59-DAA7-4572-BD1E-18933108339B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zaj05", "Zaj05\Zaj05.csproj", "{228B698E-0022-4B80-9D95-227EDE11D02C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{5F882F59-DAA7-4572-BD1E-18933108339B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F882F59-DAA7-4572-BD1E-18933108339B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F882F59-DAA7-4572-BD1E-18933108339B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228B698E-0022-4B80-9D95-227EDE11D02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228B698E-0022-4B80-9D95-227EDE11D02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228B698E-0022-4B80-9D95-227EDE11D02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228B698E-0022-4B80-9D95-227EDE11D02C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
