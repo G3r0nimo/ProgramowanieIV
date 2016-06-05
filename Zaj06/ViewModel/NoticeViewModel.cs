@@ -9,7 +9,7 @@ namespace Zaj06.ViewModel
     public class NoticeViewModel
     {
         public string Tittle { get; set; }
-        public DateTime Created { get; set; }
+        public DateTime When { get; set; }
         public string Description { get; set; }
 
     }

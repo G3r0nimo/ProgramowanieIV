@@ -17,9 +17,9 @@ namespace Zaj06.ViewModel
 
             Notices = new List<NoticeViewModel>
             {
-                new NoticeViewModel {Tittle="Zrobic projekt", Description="Na zaliczenie z C#", Created=DateTime.Now },
-                new NoticeViewModel {Tittle="Tittle 2", Description="Cos tam...", Created=DateTime.Now },
-                new NoticeViewModel {Tittle="Tittle 3", Description="Cos tam 123", Created=DateTime.Now },
+                new NoticeViewModel {Tittle="Zrobic projekt", Description="Na zaliczenie z C#", When=DateTime.Now },
+                new NoticeViewModel {Tittle="Tittle 2", Description="Cos tam...", When=DateTime.Now },
+                new NoticeViewModel {Tittle="Tittle 3", Description="Cos tam 123", When=DateTime.Now },
             };
         }
     }
