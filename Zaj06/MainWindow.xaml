@@ -1,21 +1,19 @@
 ﻿<Window x:Class="Zaj06.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Zaj06"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525"
+        Title="MainWindow" Height="413" Width="351"
         xmlns:locals="clr-namespace:Zaj06.ViewModel">
     <Grid>
         <Grid.DataContext>
             <locals:MainWindowViewModel/>
         </Grid.DataContext>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="353,3,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="textBox_Copy" HorizontalAlignment="Left" Height="110" Margin="27,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="297"/>
-        <DatePicker HorizontalAlignment="Left" Margin="371,53,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="398,270,0,0" VerticalAlignment="Top" Width="75"/>
-        <DataGrid ItemsSource="{Binding Notices }" x:Name="dataGrid" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" Height="159" Width="362"/>
-
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="213,30,0,0" TextWrapping="Wrap" 
+                 Text="{Binding NoticeToAdd.Title}" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="68" Margin="135,116,0,0" TextWrapping="Wrap" 
+                 Text="{Binding NoticeToAdd.Description}" VerticalAlignment="Top" Width="198"/>
+        <DatePicker 
+            SelectedDate="{Binding NoticeToAdd.Creted}" HorizontalAlignment="Left" Margin="231,75,0,0" VerticalAlignment="Top"/>
+        <Button Command="{Binding AddNotice}" Content="Dodaj" HorizontalAlignment="Left" Margin="258,352,0,0" VerticalAlignment="Top" Width="75"/>
+        <DataGrid ItemsSource="{Binding Notices}" HorizontalAlignment="Left" Margin="19,199,0,0" VerticalAlignment="Top" Height="135" Width="314"/>
     </Grid>
 </Window>
